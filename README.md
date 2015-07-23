@@ -3,7 +3,9 @@ Conviértete en Geohacker
 
 Una serie de guías, slides, y demos para programadorxs y diseñadorxs con interés en el análisis de datos geoespaciales, visualización de datos, y cartografía.
 
-## Contenido (aún en proceso):
+---
+
+### Contenido (aún en proceso):
 
 # Intro a GIS 
 1. Datos geoespaciales  
@@ -33,3 +35,7 @@ Una serie de guías, slides, y demos para programadorxs y diseñadorxs con inter
 1. [PostGIS](http://postgis.net/) 
 2. [SciPy](http://www.scipy.org/)  
 
+---
+
+# Proyectos similares
+[mapschool - a free introduction to geo](http://mapschool.io/) 
