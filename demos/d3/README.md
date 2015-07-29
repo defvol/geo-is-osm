@@ -2,7 +2,14 @@
 
 ```bash
 ✗ cd demos/d3
-✗ open http://0.0.0.0:8008/map.html
 ✗ http-server -p 8008
+```
+
+```bash
+✗ open http://0.0.0.0:8008/map.html
+```
+
+```bash
+✗ open http://0.0.0.0:8008/choropleth.html
 ```
 

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <style>
+
+  .manzanas {
+    fill: #e6e6e6;
+  }
+
+  .ageb {
+    fill: none;
+    stroke: #e6e6e6;
+    stroke-linejoin: round;
+  }
+
+  .q0-9 { fill:#feedde; }
+  .q1-9 { fill:#fdbe85; }
+  .q2-9 { fill:#fd8d3c; }
+  .q3-9 { fill:#d94701; }
+
+  </style>
+</head>
+
+<body>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/queue-async/1.0.7/queue.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/topojson/1.6.19/topojson.min.js"></script>
+<script>
+
+var width = 960,
+    height = 600,
+    dataUrl = "https://raw.githubusercontent.com/rodowi/geo-is-osm/master/data";
+
+var schoolsByBlock = d3.map();
+
+var quantize = d3.scale.quantize()
+    .domain([0, 4])
+    .range(d3.range(4).map(function(i) { return "q" + i + "-9"; }));
+
+var path = d3.geo.path()
+    .projection(null);
+
+var svg = d3.select("body").append("svg")
+    .attr("width", width)
+    .attr("height", height);
+
+queue()
+    .defer(d3.json, dataUrl + "/df_manzanas_pob4.simple.json")
+    .defer(d3.csv, dataUrl + "/df_manzanas_preescolar.csv", function(d) {
+      schoolsByBlock.set(d.cvegeo, +d.frec); })
+    .await(ready);
+
+queue()
+    .defer(d3.json, dataUrl + "/df_ageb_urb.simple.json")
+    .await(function(error, topology) {
+      svg.append("path")
+          .datum(topojson.mesh(topology, topology.objects.df_ageb_urb, function(a, b) {
+            return a !== b; }))
+          .attr("class", "ageb")
+          .attr("d", path);
+      });
+
+function zestimate(d) {
+  return schoolsByBlock.get(d.properties.CVEGEO);
+}
+
+function ready(error, topology) {
+  if (error) throw error;
+
+  svg.append("g")
+      .attr("class", "manzanas")
+    .selectAll("path")
+      .data(topojson.feature(topology, topology.objects.df_manzanas_pob4).features)
+    .enter().append("path")
+      .attr("class", function(d) {
+        return quantize(zestimate(d)); })
+      .attr("d", path);
+}
+
+d3.select(self.frameElement).style("height", height + "px");
+
+</script>
+
+</body>
+</html>
