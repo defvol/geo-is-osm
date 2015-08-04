@@ -11,4 +11,6 @@ Aquí encontrarás uso de datos abiertos, análisis de datos geoespaciales, desa
 
 Pasa a la Wiki para ver el contenido: https://github.com/rodowi/geo-is-osm/wiki
 
+![Un día en ecobici](https://raw.githubusercontent.com/rodowi/geo-is-osm/master/images/ecobici.gif)
+
 ![Escuelas por manzana en DF](https://raw.githubusercontent.com/rodowi/geo-is-osm/master/images/df_escuelas_por_manzana.png)
