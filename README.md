@@ -20,5 +20,3 @@ Pasa a la Wiki para ver el contenido: https://github.com/rodowi/geo-is-osm/wiki
 Complicado dado que en algunos casos se toma como ejemplo otros proyectos con licencia inexistente. En el caso de proyectos o librerías de código con su propio licenciamiento, esto se respeta. En el caso de ser código propio, generado en este proyecto, la licencia es [MIT](https://github.com/rodowi/geo-is-osm/blob/master/LICENSE).  
 
 ![Un día en ecobici](https://raw.githubusercontent.com/rodowi/geo-is-osm/master/images/ecobici.gif)
-
-![Escuelas por manzana en DF](https://raw.githubusercontent.com/rodowi/geo-is-osm/master/images/df_escuelas_por_manzana.png)
