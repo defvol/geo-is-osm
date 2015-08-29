@@ -41,3 +41,10 @@ nik2img.py -d 500 500 -s 3857 -e -7871714 -3959491 -7861242 -3950854 roads.xml r
 _Nota: para identificar el bounding box de una región te recomiendo usar [boundingbox.info](http://boundingbox.info/)._
 
 ![Vías y caminos](https://github.com/rodowi/geo-is-osm/blob/master/demos/cartocss/roads.png)
+
+**Un mapa con más de una capa** 
+
+```bash
+carto roads+buildings.mml > roads+buildings.xml
+nik2img.py -d 500 500 -s 3857 -e -7866517 -3957657 -7863077 -3952727 roads+buildings.xml roads+buildings.png
+```
