@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Map[]>
+<Map background-color="#99b3cc">
+
+<Parameters>
+  <Parameter name="format">png</Parameter>
+  <Parameter name="name"><![CDATA[Magnacarto Test]]></Parameter>
+</Parameters>
+
+
+<Style name="world" filter-mode="first">
+  <Rule>
+    <Filter>([ISO_A2] = 'MX')</Filter>
+    <LineSymbolizer stroke="#000000" stroke-width="1" />
+    <PolygonSymbolizer fill="#dadccd" />
+  </Rule>
+  <Rule>
+    <LineSymbolizer stroke="#000000" stroke-width="1" />
+    <PolygonSymbolizer fill="#f0f1eb" />
+  </Rule>
+</Style>
+<Layer name="world"
+  srs="+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs">
+    <StyleName>world</StyleName>
+    <Datasource>
+       <Parameter name="file"><![CDATA[ne_10m_admin_0_countries/ne_10m_admin_0_countries.shp]]></Parameter>
+       <Parameter name="srid"><![CDATA[4326]]></Parameter>
+       <Parameter name="type"><![CDATA[shape]]></Parameter>
+    </Datasource>
+  </Layer>
+
+</Map>
