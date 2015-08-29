@@ -1,3 +1,4 @@
+_Ejemplos tomados y modificados de https://github.com/omniscale/magnacarto/tree/master/docs/examples_
 
 ## Descarga de datos
 
