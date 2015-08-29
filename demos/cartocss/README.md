@@ -1,8 +1,8 @@
 _Ejemplos tomados y modificados de https://github.com/omniscale/magnacarto/tree/master/docs/examples_
 
-# Hola Mundo!
+### Hola Mundo!
 
-### Descarga de datos
+**Descarga de datos**
 
 Datos vectoriales de los [países del mundo en Natural Earth](http://www.naturalearthdata.com/downloads/10m-cultural-vectors/10m-admin-0-countries/).
 
@@ -13,7 +13,7 @@ unzip ne_10m_admin_0_countries.zip -d ne_10m_admin_0_countries
 rm ne_10m_admin_0_countries.zip
 ```
 
-### Genera un mapa con cartocss y mapnik
+**Genera un mapa con cartocss y mapnik**
 
 ```bash
 carto world.mml > world.xml
