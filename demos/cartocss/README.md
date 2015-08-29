@@ -23,9 +23,19 @@ nik2img.py world.xml world.png
 ![Hola
 mundo](https://github.com/rodowi/geo-is-osm/blob/master/demos/cartocss/world.png)
 
-# Vías y caminos
+### Vías y caminos
 
-### Descarga de datos
+**Descarga de datos**
 
-[Extractos de metros de Mapzen](https://mapzen.com/data/metro-extracts)
+[Extractos de Mapzen](https://mapzen.com/data/metro-extracts)
 
+_Nota: Descarga los extractos de Santiago en formato SHP hechos con imposm._
+
+**Genera el mapa en una sección de la ciudad**
+
+```bash
+carto roads.mml > roads.xml
+nik2img.py -d 500 500 -s 3857 -e -7871714 -3959491 -7861242 -3950854 roads.xml roads.png
+```
+
+_Nota: para identificar el bounding box de una región te recomiendo usar [boundingbox.info](http://boundingbox.info/)._
