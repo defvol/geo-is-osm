@@ -7,6 +7,8 @@ Aquí encontrarás uso de datos abiertos, análisis de datos geoespaciales, desa
 
 Pasa a la Wiki para ver el contenido: https://github.com/rodowi/geo-is-osm/wiki
 
+![DF high roads and cycleways at zoom 15](https://raw.githubusercontent.com/rodowi/geo-is-osm/master/images/highroads-cycles-df-z15.png)
+
 ## Licencia (License)
 
 #### Contenido:
@@ -14,5 +16,3 @@ Pasa a la Wiki para ver el contenido: https://github.com/rodowi/geo-is-osm/wiki
 
 #### Software:
 Complicado dado que en algunos casos se toma como ejemplo otros proyectos con licencia inexistente. En el caso de proyectos o librerías de código con su propio licenciamiento, esto se respeta. En el caso de ser código propio, generado en este proyecto, la licencia es [MIT](https://github.com/rodowi/geo-is-osm/blob/master/LICENSE).  
-
-![Un día en ecobici](https://raw.githubusercontent.com/rodowi/geo-is-osm/master/images/ecobici.gif)
