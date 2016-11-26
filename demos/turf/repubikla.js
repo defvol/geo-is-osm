@@ -11,33 +11,23 @@ var accidentes = read('./repubikla.geojson')
   .features
   .filter(e => e.properties.type == 'Accidente')
 
+// For each point, create a buffer and cluster elements around it
+var buffer = p => turf.buffer(p, 0.020, 'kilometers')
 var clusters = []
+var fc = turf.featureCollection
+var within = (elems, area) => turf.within(fc(elems), fc([buffer(area)]))
+var clusters = accidentes.map(a => within(accidentes, a).features)
 
-// For each point, create a buffer and count the number of elements within
-accidentes.forEach(function (acc) {
-  var buffer = turf.buffer(acc, 0.020, 'kilometers')
-
-  var cluster = turf.within(
-    turf.featureCollection(accidentes),
-    turf.featureCollection([ buffer ])
-  )
-
-  clusters.push({
-    centroid: acc,
-    elements: cluster.features
-  })
-})
-
-// Get top 5 largest clusters style them and build FeatureCollection
-var features = clusters.sort((a, b) => b.elements.length - a.elements.length)
+// Get top 30 largest clusters style them and build FeatureCollection
+var features = clusters.sort((a, b) => b.length - a.length)
 .slice(0, 30)
 .map(c => {
   var color = chroma.random().hex()
-  for (var j = 0, k = c.elements.length; j < k; j++) {
-    c.elements[j].properties['marker-color'] = color
-    c.elements[j].properties['marker-size'] = 'medium'
+  for (var j = 0, k = c.length; j < k; j++) {
+    c[j].properties['marker-color'] = color
+    c[j].properties['marker-size'] = 'medium'
   }
-  return c.elements
+  return c
 })
 .reduce((prev, curr) => prev.concat(curr))
 .reduce((prev, curr) => {
