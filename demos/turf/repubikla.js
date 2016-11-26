@@ -11,6 +11,13 @@ var accidentes = read('./repubikla.geojson')
   .features
   .filter(e => e.properties.type == 'Accidente')
 
+var dedup = (prev, curr) => {
+  var geom = curr.geometry.coordinates
+  var coords = prev.map(p => p.geometry.coordinates)
+  var duplicate = coords.indexOf(geom)
+  return duplicate == -1 ? prev.concat(curr) : prev
+}
+
 // For each point, create a buffer and cluster elements around it
 var buffer = p => turf.buffer(p, 0.020, 'kilometers')
 var clusters = []
@@ -30,12 +37,11 @@ var features = clusters.sort((a, b) => b.length - a.length)
   return c
 })
 .reduce((prev, curr) => prev.concat(curr))
-.reduce((prev, curr) => {
-  var geom = curr.geometry.coordinates
-  var coords = prev.map(p => p.geometry.coordinates)
-  var duplicate = coords.indexOf(geom)
-  return duplicate == -1 ? prev.concat(curr) : prev
-}, [])
+.reduce(dedup, [])
 
-var fc = { type: 'FeatureCollection', features: features }
+var fc = {
+  type: 'FeatureCollection',
+  features: features.concat(accidentes).reduce(dedup, [])
+}
+
 console.log('%j', fc)
