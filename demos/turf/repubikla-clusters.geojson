@@ -1,0 +1,785 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.153693,
+          19.425791
+        ]
+      },
+      "properties": {
+        "type": "Accidente",
+        "date": "2015-05-04T00:00:00Z",
+        "comment": "\"Modo\":\"Bicicleta de carga\"/////\"Calle1\":\"Cuauhtémoc\"/////\"Calle2\":\"Chapultepec\"/////\"Gravedad\":\"Lesionado\"/////\"Fuente\":\"@_atropellado\"/////\"Responsable\":\"Microbus\"/////\"Seguimiento\":\"Agentes_Tránsito\"",
+        "cartodb_id": 166,
+        "created_at": "2015-05-04T18:53:33Z",
+        "updated_at": "2015-05-04T20:41:47Z",
+        "marker-color": "#e61343",
+        "marker-size": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.153725,
+          19.425781
+        ]
+      },
+      "properties": {
+        "type": "Accidente",
+        "date": "2015-06-02T00:00:00Z",
+        "comment": "\"Modo\":\"Peatón\"/////\"Calle1\":\"Cuauhtémoc\"/////\"Calle2\":\"Avenida Chapultepec\"/////\"Fuente\":\"@obs_accidentes\"/////\"Fuente2\":\"@trafico889 \"",
+        "cartodb_id": 322,
+        "created_at": "2015-06-10T21:17:19Z",
+        "updated_at": "2015-06-10T21:17:19Z",
+        "marker-color": "#e61343",
+        "marker-size": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.153628,
+          19.4257
+        ]
+      },
+      "properties": {
+        "type": "Accidente",
+        "date": "2015-07-20T00:00:00Z",
+        "comment": "\"Modo\":\"Peatón\"/////\"Calle1\":\"Cuauhtémoc\"/////\"Calle2\":\"Avenida Chapultepec\"/////\"Fuente\":\"@_atropellado\"",
+        "cartodb_id": 486,
+        "created_at": "2015-07-21T01:29:51Z",
+        "updated_at": "2015-07-21T01:29:51Z",
+        "marker-color": "#e61343",
+        "marker-size": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.153639,
+          19.425781
+        ]
+      },
+      "properties": {
+        "type": "Accidente",
+        "date": "2015-08-17T00:00:00Z",
+        "comment": "\"Modo\":\"Peatón\"/////\"Gravedad\":\"Grave\"/////\"Calle1\":\"Avenida Chapultepec\"/////\"Calle2\":\"Cuauhtémoc eje 1 poniente\"/////\"Fuente\":\"@_atropellado\"",
+        "cartodb_id": 628,
+        "created_at": "2015-08-18T00:39:35Z",
+        "updated_at": "2015-08-18T00:39:35Z",
+        "marker-color": "#e61343",
+        "marker-size": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.153693,
+          19.425801
+        ]
+      },
+      "properties": {
+        "type": "Accidente",
+        "date": "2015-10-01T00:00:00Z",
+        "comment": "\"Modo\":\"Peaton\"/////\"Calle1\":\"Chapultepec\"/////\"Calle2\":\"Cuauhtemoc\"/////\"Fuente\":\"@atropellado\"",
+        "cartodb_id": 844,
+        "created_at": "2015-10-27T02:42:15Z",
+        "updated_at": "2015-10-27T02:42:15Z",
+        "marker-color": "#e61343",
+        "marker-size": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.15365,
+          19.425842
+        ]
+      },
+      "properties": {
+        "type": "Accidente",
+        "date": "2016-06-03T00:00:00Z",
+        "comment": "\"modo\":\"peaton\"/////\"calle1\":\"avenida chapultepec\"/////\"calle2\":\"avenida cuauhtemoc\"/////\"fuente\":\"@_atropellado\"",
+        "cartodb_id": 1818,
+        "created_at": "2016-06-04T01:21:46Z",
+        "updated_at": "2016-06-04T01:21:46Z",
+        "marker-color": "#e61343",
+        "marker-size": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.124639,
+          19.303894
+        ]
+      },
+      "properties": {
+        "type": "Accidente",
+        "date": "2015-06-25T00:00:00Z",
+        "comment": "\"Modo\":\"Peatón\"/////\"Gravedad\":\"Mortal\"/////\"Calle1\":\"Canal de Miramontes\"/////\"Calle2\":\"Calzada del Hueso\"/////\"Fuente\":\"@obs_accidentes\"",
+        "cartodb_id": 414,
+        "created_at": "2015-06-30T22:55:10Z",
+        "updated_at": "2015-06-30T22:55:10Z",
+        "marker-color": "#e72cbc",
+        "marker-size": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.124575,
+          19.303873
+        ]
+      },
+      "properties": {
+        "type": "Accidente",
+        "date": "2015-09-03T00:00:00Z",
+        "comment": "\"Modo\":\"Peatón\"/////\"Calle1\":\"Miramontes\"/////\"Calle2\":\"Miramontes\"/////\"Fuente\":\"@_atropellado\"",
+        "cartodb_id": 714,
+        "created_at": "2015-09-08T02:00:44Z",
+        "updated_at": "2015-09-08T02:00:44Z",
+        "marker-color": "#e72cbc",
+        "marker-size": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.124575,
+          19.303873
+        ]
+      },
+      "properties": {
+        "type": "Accidente",
+        "date": "2015-09-13T00:00:00Z",
+        "comment": "\"Modo\":\"Peatón\"/////\"Calle1\":\"Canal de Miramontes\"/////\"Calle2\":\"Calzada del Hueso\"/////\"Fuente\":\"@_atropellado\"/////\"Fuente2\":\"@MrElDiablo8 \"",
+        "cartodb_id": 755,
+        "created_at": "2015-09-18T01:45:52Z",
+        "updated_at": "2015-09-18T01:45:52Z",
+        "marker-color": "#e72cbc",
+        "marker-size": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.12451,
+          19.303894
+        ]
+      },
+      "properties": {
+        "type": "Accidente",
+        "date": "2015-11-14T00:00:00Z",
+        "comment": "\"modo\":\"peaton\"/////\"calle1\":\"canal de miramontes\"/////\"calle2\":\"avenida del hueso\"/////\"fuente\":\"@_atropellado\"",
+        "cartodb_id": 1059,
+        "created_at": "2015-11-21T02:24:50Z",
+        "updated_at": "2015-11-21T02:24:50Z",
+        "marker-color": "#e72cbc",
+        "marker-size": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.124564,
+          19.303909
+        ]
+      },
+      "properties": {
+        "type": "Accidente",
+        "date": "2016-01-20T00:00:00Z",
+        "comment": "\"modo\":\"peaton\"/////\"calle1\":\"miramontes\"/////\"calle2\":\"calzada del hueso\"/////\"link\":\"pic.twitter.com/n9epBbyWTS\"/////\"fuente\":\"@VillaCoapa_\"/////\"responsable\":\"transporte publico camion ruta 13\"",
+        "cartodb_id": 1458,
+        "created_at": "2016-03-09T00:06:54Z",
+        "updated_at": "2016-03-09T00:07:45Z",
+        "marker-color": "#e72cbc",
+        "marker-size": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.14614,
+          19.427117
+        ]
+      },
+      "properties": {
+        "type": "Accidente",
+        "date": "2015-07-21T00:00:00Z",
+        "comment": "\"Modo\":\"Peatón\"/////\"VictimaEdad\":\"12\"/////\"Calle1\":\"Doctor Vertiz\"/////\"Calle2\":\"Arcos de Belen\"/////\"Fuente\":\"@_atropellado\"",
+        "cartodb_id": 513,
+        "created_at": "2015-07-21T22:33:03Z",
+        "updated_at": "2015-07-21T22:33:03Z",
+        "marker-color": "#930c0b",
+        "marker-size": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.146129,
+          19.427218
+        ]
+      },
+      "properties": {
+        "type": "Accidente",
+        "date": "2015-08-24T00:00:00Z",
+        "comment": "\"Modo\":\"Peatón\"/////\"Calle1\":\"Luis Moya\"/////\"Calle2\":\"Arcos de Belen\"/////\"Fuente\":\"@_atropellado\"",
+        "cartodb_id": 663,
+        "created_at": "2015-08-24T21:51:21Z",
+        "updated_at": "2015-08-24T21:51:21Z",
+        "marker-color": "#930c0b",
+        "marker-size": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.146145,
+          19.427117
+        ]
+      },
+      "properties": {
+        "type": "Accidente",
+        "date": "2015-09-29T00:00:00Z",
+        "comment": "\"Modo\":\"Peatón\"/////\"Calle1\":\"Luis Moya\"/////\"Calle2\":\"Arcos de Belén\"/////\"Fuente\":\"@_atropellado\"",
+        "cartodb_id": 822,
+        "created_at": "2015-10-05T23:57:51Z",
+        "updated_at": "2015-10-05T23:57:51Z",
+        "marker-color": "#930c0b",
+        "marker-size": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.146054,
+          19.427086
+        ]
+      },
+      "properties": {
+        "type": "Accidente",
+        "date": "2015-10-04T00:00:00Z",
+        "comment": "\"Modo\":\"Peaton\"/////\"Calle1\":\"Arcos de Belen\"/////\"Calle2\":\"Dr Vertiz\"/////\"Fuente\":\"@_atropellado\"",
+        "cartodb_id": 856,
+        "created_at": "2015-10-27T04:13:12Z",
+        "updated_at": "2015-10-27T04:13:12Z",
+        "marker-color": "#930c0b",
+        "marker-size": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.146134,
+          19.427157
+        ]
+      },
+      "properties": {
+        "type": "Accidente",
+        "date": "2016-03-17T00:00:00Z",
+        "comment": "\"modo\":\"peaton\"/////\"calle1\":\"avenida  jose maria vertiz\"/////\"calle2\":\"arcos de belen\"/////\"fuente\":\"@trafico889\"",
+        "cartodb_id": 1721,
+        "created_at": "2016-05-03T02:51:23Z",
+        "updated_at": "2016-06-06T23:31:47Z",
+        "marker-color": "#930c0b",
+        "marker-size": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.194757,
+          19.426267
+        ]
+      },
+      "properties": {
+        "type": "Accidente",
+        "date": "2015-04-08T00:00:00Z",
+        "comment": "\"Modo\":\"Peaton\"/////\"Fuente\":\"@_atropellado\"",
+        "cartodb_id": 121,
+        "created_at": "2015-04-20T01:26:14Z",
+        "updated_at": "2015-04-21T04:46:47Z",
+        "marker-color": "#12bc00",
+        "marker-size": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.194613,
+          19.426085
+        ]
+      },
+      "properties": {
+        "type": "Accidente",
+        "date": "2015-07-20T00:00:00Z",
+        "comment": "\"Modo\":\"Peatón\"/////\"Calle1\":\"Avenida Reforma\"/////\"Calle2\":\"cerca Audotorio nacional\"/////\"Fuente\":\"@_atropellado\"",
+        "cartodb_id": 471,
+        "created_at": "2015-07-21T00:26:59Z",
+        "updated_at": "2015-07-21T00:26:59Z",
+        "marker-color": "#420f8f",
+        "marker-size": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.194731,
+          19.42611
+        ]
+      },
+      "properties": {
+        "type": "Accidente",
+        "date": "2016-02-09T00:00:00Z",
+        "comment": "\"modo\":\"peaton\"/////\"calle1\":\"Paseo de la Reforma\"/////\"calle2\":\"Auditorio Nacional\"/////\"fuente\":\"@Iberomed\"/////\"fuente2\":\"@_atropellado\"/////\"seguimiento\":\"ambulancia laborando en lugar\"/////\"Link\":\"https://twitter.com/Iberomed/status/697103707083702273\"/////\"Link2\":\"https://web.archive.org/web/20160409004420/https:/twitter.com/Iberomed/status/697103707083702273\"",
+        "cartodb_id": 1526,
+        "created_at": "2016-04-09T00:46:04Z",
+        "updated_at": "2016-04-09T00:46:04Z",
+        "marker-color": "#420f8f",
+        "marker-size": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.194827,
+          19.426105
+        ]
+      },
+      "properties": {
+        "type": "Accidente",
+        "date": "2016-06-03T00:00:00Z",
+        "comment": "\"modo\":\"ciclista\"/////\"calle1\":\"paseo de la reforma\"/////\"calle2\":\"auditorio nacional\"/////\"responsable\":\"microbusero\"/////\"gravedad\":\"herido leve\"/////\"fuente\":\"@Cyb3rPsycho\"",
+        "cartodb_id": 1797,
+        "created_at": "2016-06-03T22:27:03Z",
+        "updated_at": "2016-06-03T22:27:03Z",
+        "marker-color": "#420f8f",
+        "marker-size": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.194666,
+          19.426039
+        ]
+      },
+      "properties": {
+        "type": "Accidente",
+        "date": "2016-01-21T00:00:00Z",
+        "comment": "\"modo\":\"peaton\"/////\"calle1\":\"Paseo de la Reforma\"/////\"calle2\":\"Auditorio Nacional\"/////\"seguimiento\":\"servicios al lugar\"/////\"fuente\":\"@Iberomed\"",
+        "cartodb_id": 1934,
+        "created_at": "2016-08-24T05:27:45Z",
+        "updated_at": "2016-08-24T05:27:45Z",
+        "marker-color": "#420f8f",
+        "marker-size": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.170269,
+          19.422037
+        ]
+      },
+      "properties": {
+        "type": "Accidente",
+        "date": "2015-07-14T00:00:00Z",
+        "comment": "",
+        "cartodb_id": 463,
+        "created_at": "2015-07-14T19:23:36Z",
+        "updated_at": "2015-07-14T19:23:36Z",
+        "marker-color": "#49ed37",
+        "marker-size": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.170237,
+          19.422068
+        ]
+      },
+      "properties": {
+        "type": "Accidente",
+        "date": "2015-07-08T00:00:00Z",
+        "comment": "\"Modo\":\"Peatón\"/////\"Calle1\":\"Salamanca\"/////\"Calle2\":\"Avenida Chapultepec\"/////\"Fuente\":\"@_atropellado\"",
+        "cartodb_id": 464,
+        "created_at": "2015-07-14T19:24:07Z",
+        "updated_at": "2015-07-14T19:24:07Z",
+        "marker-color": "#49ed37",
+        "marker-size": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.170237,
+          19.421977
+        ]
+      },
+      "properties": {
+        "type": "Accidente",
+        "date": "2015-11-05T00:00:00Z",
+        "comment": "\"modo\":\"ciclista\"/////\"calle1\":\"Salamanca\"/////\"calle2\":\"Chapultepec\"/////\"fuente\":\"@_atropellado\"",
+        "cartodb_id": 1023,
+        "created_at": "2015-11-19T23:54:56Z",
+        "updated_at": "2015-11-19T23:54:56Z",
+        "marker-color": "#49ed37",
+        "marker-size": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.170258,
+          19.422063
+        ]
+      },
+      "properties": {
+        "type": "Accidente",
+        "date": "2016-06-20T00:00:00Z",
+        "comment": "\"modo\":\"ciclista\"/////\"calle1\":\"Avenida Chapultepec\"/////\"calle2\":\"Eje 3 poniente\"/////\"fuente\":\"@tavojeda5\"",
+        "cartodb_id": 1840,
+        "created_at": "2016-06-20T20:10:11Z",
+        "updated_at": "2016-06-20T20:10:11Z",
+        "marker-color": "#49ed37",
+        "marker-size": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.191863,
+          19.425671
+        ]
+      },
+      "properties": {
+        "type": "Accidente",
+        "date": "2015-02-26T00:00:00Z",
+        "comment": "\"Gravedad\":\"Lesión en el cráneo\"/////\"Nombre\":\"Roberto Alejandro\"/////Roberto Alejandro, bicirepartidor del Mercado de San Juan, atropellado en Paseo de la Reforma y Chivatito. No hay datos del causante del accidente. Patrulla y ambulancia llegan a su auxilio, Roberto se niega a recibir traslado y le llama a un amigo. En unos minutos llega un auto, sube su bicicleta y se retira.",
+        "cartodb_id": 80,
+        "created_at": "2015-04-18T22:57:55Z",
+        "updated_at": "2015-04-18T22:57:55Z",
+        "marker-color": "#90be60",
+        "marker-size": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.191877,
+          19.425842
+        ]
+      },
+      "properties": {
+        "type": "Accidente",
+        "date": "2015-05-14T00:00:00Z",
+        "comment": "\"Modo\":\"Peatón\"/////\"Calle1\":\"Reforma\"/////\"Calle2\":\"Arquímedes\"/////\"Fuente\":\"@_atropellado\"",
+        "cartodb_id": 198,
+        "created_at": "2015-05-19T20:42:25Z",
+        "updated_at": "2015-05-19T20:42:25Z",
+        "marker-color": "#90be60",
+        "marker-size": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.191968,
+          19.425675
+        ]
+      },
+      "properties": {
+        "type": "Accidente",
+        "date": "2015-06-04T00:00:00Z",
+        "comment": "\"Modo\":\"Peatón\"/////\"Calle1\":\"Reforma dirección oriente\"/////\"Calle2\":\"Arquímedes\"/////\"Fuente\":\"@_atropellado\"",
+        "cartodb_id": 294,
+        "created_at": "2015-06-04T20:41:31Z",
+        "updated_at": "2015-06-04T20:41:31Z",
+        "marker-color": "#90be60",
+        "marker-size": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.192027,
+          19.42569
+        ]
+      },
+      "properties": {
+        "type": "Accidente",
+        "date": "2015-11-30T00:00:00Z",
+        "comment": "\"modo\":\"peaton\"/////\"victima\":\"agente de policia\"/////\"calle1\":\"chivatito\"/////\"calle2\":\"reforma\"/////\"fuente\":\"@UCS_CDMX  @El_Poli_Cia  @atropellado\"",
+        "cartodb_id": 1163,
+        "created_at": "2015-12-04T03:26:06Z",
+        "updated_at": "2015-12-04T03:26:06Z",
+        "marker-color": "#90be60",
+        "marker-size": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.159111,
+          19.473724
+        ]
+      },
+      "properties": {
+        "type": "Accidente",
+        "date": "2015-09-07T00:00:00Z",
+        "comment": "\"Modo\":\"Peatón\"/////\"Calle1\":\"Avenida Cuitlahuác\"/////\"Calle2\":\"Avenida Jardín\"/////\"Fuente\":\"@_atropellado\"",
+        "cartodb_id": 710,
+        "created_at": "2015-09-08T01:49:40Z",
+        "updated_at": "2015-09-08T01:49:40Z",
+        "marker-color": "#eab001",
+        "marker-size": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.158982,
+          19.473638
+        ]
+      },
+      "properties": {
+        "type": "Accidente",
+        "date": "2015-10-31T00:00:00Z",
+        "comment": "\"Modo\":\"Peaton\"/////\"Calle1\":\"Avenida Jardin\"/////\"Calle2\":\"Ciutlahuac eje 3 norte\"/////\"Fuente\":\"@_atropellado\"",
+        "cartodb_id": 958,
+        "created_at": "2015-11-04T01:21:46Z",
+        "updated_at": "2015-11-04T01:21:46Z",
+        "marker-color": "#eab001",
+        "marker-size": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.159014,
+          19.473754
+        ]
+      },
+      "properties": {
+        "type": "Accidente",
+        "date": "2016-06-13T00:00:00Z",
+        "comment": "",
+        "cartodb_id": 1830,
+        "created_at": "2016-06-14T04:50:48Z",
+        "updated_at": "2016-06-14T04:50:48Z",
+        "marker-color": "#eab001",
+        "marker-size": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.159079,
+          19.473612
+        ]
+      },
+      "properties": {
+        "type": "Accidente",
+        "date": "2016-06-13T00:00:00Z",
+        "comment": "\"modo\":\"peatón\"/////\"calle1\":\"Jardín\"/////\"calle2\":\"Cuitláhuac\"/////\"fuente\":\"@OVIALCDMX\"",
+        "cartodb_id": 1831,
+        "created_at": "2016-06-14T04:51:58Z",
+        "updated_at": "2016-06-14T04:51:58Z",
+        "marker-color": "#eab001",
+        "marker-size": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.090543,
+          19.509274
+        ]
+      },
+      "properties": {
+        "type": "Accidente",
+        "date": "2015-07-20T00:00:00Z",
+        "comment": "\"Modo\":\"Peatón\"/////\"Calle1\":\"Periférico\"/////\"Calle2\":\"Centenario\"/////\"MunDel\":\"Gustavo A. Madero\"/////\"Fuente\":\"@_atropellado\"",
+        "cartodb_id": 481,
+        "created_at": "2015-07-21T01:04:37Z",
+        "updated_at": "2015-07-21T01:04:37Z",
+        "marker-color": "#5b5c30",
+        "marker-size": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.090537,
+          19.509274
+        ]
+      },
+      "properties": {
+        "type": "Accidente",
+        "date": "2015-11-03T00:00:00Z",
+        "comment": "\"Modo\":\"Ciclista\"/////\"Gravedad\":\"Mortal\"/////\"Calle1\":\"Avenida Centenario\"/////\"Calle2\":\"Periferico norte\"/////\"Seguimiento\":\"Responsable presentado a Ministerio Publico\"/////\"Fuente\":\"@_atropellado\"",
+        "cartodb_id": 949,
+        "created_at": "2015-11-04T00:35:29Z",
+        "updated_at": "2015-11-04T00:35:29Z",
+        "marker-color": "#5b5c30",
+        "marker-size": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.090457,
+          19.509274
+        ]
+      },
+      "properties": {
+        "type": "Accidente",
+        "date": "2015-12-18T00:00:00Z",
+        "comment": "\"modo\":\"peaton\"/////\"calle1\":\"avenida centenario\"/////\"calle2\":\"periferico norte\"/////\"fuente\":\"@mreldiablo8\"/////\"fuente2\":\"pic.twitter.com/Kvr0bT9MhI\"/////\"fuente3\":\"@_atropellado\"",
+        "cartodb_id": 1273,
+        "created_at": "2016-01-11T04:27:15Z",
+        "updated_at": "2016-01-11T04:27:15Z",
+        "marker-color": "#5b5c30",
+        "marker-size": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.148672,
+          19.457093
+        ]
+      },
+      "properties": {
+        "type": "Accidente",
+        "date": "2015-05-01T00:00:00Z",
+        "comment": "\"Modo\":\"Ciclista\"/////\"Calle1\":\"Insurgentes\"/////\"Calle2\":\"Manuel_Gonzalez\"/////\"Fuente\":\"@_atropellado\"",
+        "cartodb_id": 171,
+        "created_at": "2015-05-04T19:12:01Z",
+        "updated_at": "2015-05-04T19:12:01Z",
+        "marker-color": "#f376ad",
+        "marker-size": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.148822,
+          19.457083
+        ]
+      },
+      "properties": {
+        "type": "Accidente",
+        "date": "2015-07-20T00:00:00Z",
+        "comment": "\"Modo\":\"Peatón\"/////\"Calle1\":\"Eje 2 norte Manuel Gonzalez\"/////\"Calle2\":\"Insurgentes norte\"/////\"Fuente\":\"@_atropellado\"",
+        "cartodb_id": 494,
+        "created_at": "2015-07-21T01:49:09Z",
+        "updated_at": "2015-07-21T01:49:09Z",
+        "marker-color": "#f376ad",
+        "marker-size": "medium"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.148586,
+          19.457104
+        ]
+      },
+      "properties": {
+        "type": "Accidente",
+        "date": "2015-11-13T00:00:00Z",
+        "comment": "\"modo\":\"ciclista\"/////\"calle1\":\"eje 2 norte\"/////\"calle2\":\"insurgentes\"/////\"fuente\":\"@_atropellado\"/////\"responsable\":\"transporte publico autobus\"",
+        "cartodb_id": 1049,
+        "created_at": "2015-11-21T02:09:04Z",
+        "updated_at": "2015-11-21T02:09:04Z",
+        "marker-color": "#f376ad",
+        "marker-size": "medium"
+      }
+    }
+  ]
+}
